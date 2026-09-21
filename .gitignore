@@ -1,0 +1,11 @@
+.env
+.DS_Store
+tmp/
+**/.DS_Store
+infra/node_modules/
+infra/cdk.out/
+diagram/priya-architecture-landscape.png
+diagram/priya-architecture-landscape.svg
+diagram/priya-architecture-original.drawio
+diagram/priya-architecture.png
+diagram/priya-architecture.svg
