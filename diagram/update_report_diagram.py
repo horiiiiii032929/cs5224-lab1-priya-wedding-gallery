@@ -61,8 +61,7 @@ ai_paragraph.paragraph_format.space_before = 4
 ai_run = ai_paragraph.add_run(
     "AI declaration: Claude Opus 4.5 and OpenAI GPT-5.6 Sol "
     "(medium reasoning) were used to assist with drafting, formatting, and "
-    "diagram refinement. All generated material was reviewed and verified by "
-    "the student."
+    "diagram refinement."
 )
 ai_run.font.size = Pt(9)
 
