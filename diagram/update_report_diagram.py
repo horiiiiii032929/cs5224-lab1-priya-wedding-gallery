@@ -56,6 +56,16 @@ repository_paragraph.paragraph_format.space_before = 8
 repository_run = repository_paragraph.add_run(f"Repository: {REPOSITORY_URL}")
 repository_run.font.size = Pt(9)
 
+ai_paragraph = doc.add_paragraph()
+ai_paragraph.paragraph_format.space_before = 4
+ai_run = ai_paragraph.add_run(
+    "AI declaration: Claude Opus 4.5 and OpenAI GPT-5.6 Sol "
+    "(medium reasoning) were used to assist with drafting, formatting, and "
+    "diagram refinement. All generated material was reviewed and verified by "
+    "the student."
+)
+ai_run.font.size = Pt(9)
+
 # Keep the existing three-section A4 structure: portrait, landscape, portrait.
 doc.save(OUTPUT)
 print(OUTPUT)
